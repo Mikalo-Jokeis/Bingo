@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>BINGO DA FIRMA</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>BINGO DA FIRMA</h1>
+            <h2 id="vencedor"></h2>
+        </div>
+    </header>
+
+    <main>
+        <section id="area_cartelas">
+            <div id="menu_cartelas">
+                <h3>Cartelas</h3>
+                <button onclick="obterNomeJogador()">Gerar Cartela</button>
+                <button onclick="reiniciarJogo()">Reiniciar jogo</button>
+            </div>
+
+            <div id="cartelas">
+
+            </div>
+        </section>
+
+        <section id="area_numeros">
+            <div id="menu_numeros">
+                <button id="botaoJogar" onclick="iniciarSorteio()">Jogar</button>
+            </div>
+
+            <div id="numeros">
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h6>Feito por Mikalo Jokeis</h6>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
